@@ -1,6 +1,7 @@
 from django.apps import AppConfig
 
 
-class DetetorConfig(AppConfig):
+class DetectorConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'detector'
+    verbose_name = 'CNIC Detector'
