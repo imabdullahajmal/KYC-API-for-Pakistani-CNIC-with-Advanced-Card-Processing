@@ -21,11 +21,26 @@ env/
 # Pytest cache
 .pytest_cache/
 
-# Django stuff:
+# Django stuff
 *.sqlite3
+db.sqlite3
+media/
+staticfiles/
+IdCardData.csv
 
-# VS Code
+# VS Code / IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # Logs
 *.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML model weights (large — use Git LFS or download separately)
+Model/*.onnx
