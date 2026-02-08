@@ -1,7 +1,10 @@
-from yolov8 import YOLOv8
-import cv2
-import numpy as np
-import easyocr
-import re
-from pyzbar.pyzbar import decode
-import csv
+# Project requirements (pip install -r Requirements.txt)
+Django>=4.2,<5
+djangorestframework
+opencv-python
+numpy
+easyocr
+pyzbar
+Pillow
+onnx
+onnxruntime
